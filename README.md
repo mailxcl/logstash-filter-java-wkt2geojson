@@ -1,6 +1,6 @@
 # Logstash Java Plugin Filter WKT2GeoJSON
 
-[![Travis Build Status](https://travis-ci.org/logstash-plugins/logstash-filter-java_filter_example.svg)](https://travis-ci.org/logstash-plugins/logstash-filter-java_filter_example)
+[地址](https://github.com/mailxcl/logstash-filter-java-wkt2geojson)
 
 WKT2GeoJSON是一个[Logstash](https://github.com/elastic/logstash)过滤器插件。
 
