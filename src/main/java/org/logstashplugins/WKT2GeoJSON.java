@@ -50,7 +50,7 @@ public class WKT2GeoJSON implements Filter {
                     WKTReader reader = new WKTReader();
                     Geometry geometry = reader.read(wkt);
                     StringWriter writer = new StringWriter();
-                    GeometryJSON g = new GeometryJSON();
+                    GeometryJSON g = new GeometryJSON(9);
                     g.write(geometry, writer);
                     geoJson = writer.toString();
                     writer.close();
